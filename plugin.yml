@@ -1,0 +1,17 @@
+name: WhatIsLEET
+main: LEET\Main
+version: 1.3.37
+api: 2.0.0
+author: Goldish_Kirby
+website: http://forum.leet.cc/user/Goldish_Kirby
+
+commands:
+ whatisleet:
+  description: "What is LEET"
+  usage: "/whatisleet"
+  permission: whatisleet.command
+  
+permissions:
+ whatisleet.command:
+  description: "WhatIsLEET Command"
+  default: true
